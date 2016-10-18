@@ -1,0 +1,15 @@
+alx_s_blog_homepage:
+    path:     /
+    defaults: { _controller: AlxSBlogBundle:Default:index }
+    
+alx_s_blog_pageUser:
+    path:     /{userName}
+    defaults: { _controller: AlxSBlogBundle:Default:viewPageUser }
+
+alx_s_blog_cv:
+    path:     /{userName}/cv
+    defaults: { _controller: AlxSBlogBundle:Default:viewCvUser }
+
+alx_s_blog_experiences:
+    path:     /{userName}/experiences
+    defaults: { _controller: AlxSBlogBundle:Default:viewCvUser }

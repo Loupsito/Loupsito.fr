@@ -1,0 +1,4 @@
+alx_s_blog:
+    resource: "@AlxSBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+

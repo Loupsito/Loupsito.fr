@@ -1,0 +1,18 @@
+{% extends "::layoutGeneral.html.twig" %}
+
+{% block title %}
+  {{ parent() }}
+{% endblock %}
+
+{% block body %}
+    
+   <div class="col-sm-6">
+	<img src="{{urlPicture}}" class="img-responsive img-circle margin" style="display:inline" alt="[photo de profil]" width="350" height="350"><br/>
+        {% if userName is defined %}{{userName}}{% endif %}
+  </div>
+  <div class="col-sm-6">
+      <p>{{textContent}}</p>
+  </div>
+
+
+{% endblock %}
