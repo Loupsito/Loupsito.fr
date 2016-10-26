@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/G:/Ma%20Bibiloteque/Documents/Mes%20petit%20codes/Web/ProjectSymfony/MyWebsite/app/Resources/views/layoutGeneral.html.twig</file>
+            <file>file:/G:/Ma%20Bibiloteque/Documents/Mes%20petit%20codes/Web/ProjectSymfony/MyWebsite/web/bundles/alxsblog/css/theStyle.css</file>
+            <file>file:/G:/Ma%20Bibiloteque/Documents/Mes%20petit%20codes/Web/ProjectSymfony/MyWebsite/src/AlxS/BlogBundle/Resources/config/routing.yml</file>
+            <file>file:/G:/Ma%20Bibiloteque/Documents/Mes%20petit%20codes/Web/ProjectSymfony/MyWebsite/src/AlxS/BlogBundle/Controller/DefaultController.php</file>
+            <file>file:/G:/Ma%20Bibiloteque/Documents/Mes%20petit%20codes/Web/ProjectSymfony/MyWebsite/src/AlxS/BlogBundle/Resources/views/Publication/index.html.twig</file>
+            <file>file:/G:/Ma%20Bibiloteque/Documents/Mes%20petit%20codes/Web/ProjectSymfony/MyWebsite/src/AlxS/BlogBundle/Resources/views/Publication/pageUser.html.twig</file>
+        </group>
+    </open-files>
 </project-private>

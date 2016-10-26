@@ -1,15 +1,23 @@
 alx_s_blog_homepage:
     path:     /
-    defaults: { _controller: AlxSBlogBundle:Default:index }
+    defaults: { _controller: AlxSBlogBundle:Publication:index }
     
 alx_s_blog_pageUser:
     path:     /{userName}
-    defaults: { _controller: AlxSBlogBundle:Default:viewPageUser }
+    defaults: { _controller: AlxSBlogBundle:Publication:viewPageUser }
 
 alx_s_blog_cv:
     path:     /{userName}/cv
-    defaults: { _controller: AlxSBlogBundle:Default:viewCvUser }
+    defaults: { _controller: AlxSBlogBundle:Publication:viewCvUser }
 
 alx_s_blog_experiences:
     path:     /{userName}/experiences
-    defaults: { _controller: AlxSBlogBundle:Default:viewCvUser }
+    defaults: { _controller: AlxSBlogBundle:Publication:viewCvUser }
+    
+alx_s_blog_search:
+    path:     /search
+    defaults: { _controller: AlxSBlogBundle:Publication:search }
+    
+alx_s_blog_signUp:
+    path:     /signUp
+    defaults: { _controller: AlxSBlogBundle:Publication:signUp }    
