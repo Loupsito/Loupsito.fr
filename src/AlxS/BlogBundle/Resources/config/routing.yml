@@ -3,7 +3,7 @@ alx_s_blog_homepage:
     defaults: { _controller: AlxSBlogBundle:Publication:index }
     
 alx_s_blog_pageUser:
-    path:     /{userName}
+    path:     /pageUser/{userName}
     defaults: { _controller: AlxSBlogBundle:Publication:viewPageUser }
 
 alx_s_blog_cv:

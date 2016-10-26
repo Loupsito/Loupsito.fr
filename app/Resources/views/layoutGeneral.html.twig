@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>        
-        <title>{% block title %}Alx.S{% endblock %}</title>
+        <title>{% block title %}Loupsito.fr{% endblock %}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {% block stylesheets %}
@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">                   
                 <ul class="nav navbar-nav navbar-right">                                                                       
                     {% if connecte == 'false' %}                            
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="{{ path('alx_s_blog_signUp')}}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         {% else %}                                                   
                         <li>
@@ -52,38 +52,39 @@
     <h6>.</h6>
     <!-- First Container -->
     <div class="container-fluid bg-1 text-center"> 
-        {% block body %}
-        {% endblock %} 
-
+        <body>
+            {% block body %}
+            {% endblock %} 
+        </body>    
     </div>
 
-    <!-- _________________________________Modal for search_________________________________ -->
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Search</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">                        
-                        <input type="text" class="form-control" id="searchUser">
-                    </div> 
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <!-- _________________________________Modal for search_________________________________ -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">                        
+                            <input type="text" class="form-control" id="searchUser">
+                        </div> 
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- ___________________________________________________________________________________ -->
+        <!-- ___________________________________________________________________________________ -->
 
-    <!-- Footer -->
-    <footer class="container-fluid bg-4 text-center">
-        <p>Footer : <a href="#">Footer</a></p> 
-    </footer>
-
+        <!-- Footer -->
+        <footer class="container-fluid bg-4 text-center">
+            <p>Footer : <a href="#">Footer</a></p> 
+        </footer>
 
 
-</html>
+
+    </html>
