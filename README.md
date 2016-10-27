@@ -15,11 +15,27 @@ Clone the project with : https://github.com/Loupsito/Loupsitofr.git
 
     git clone https://github.com/Loupsito/Loupsitofr.git
     
-2) Clear the cache
+2) Update the dependencies
 ----------------------------------
-Before use the project, it's necessary to clear the cache. Else, there will have some error.
+Before use the project, it's necessary update the dependencies. To do it, use **composer**
 
-    php app/console cache:clear
+### 1 - Download and install composer.phar
+
+Go to the parent directory to your symfony project and execute this commande :
+
+    php -r "eval('?>'.file_get_contents('http://getcomposer.org/installer'));"  
+    
+You can verifie your composer version with :
+
+    php composer.phar --version
+    
+### 2 - Use composer to update the dependencies of the project
+
+Go in the project, and use this commande to update the dependencies of the project with composer : 
+
+    php ../composer.phar update
+
+The update can take some minutes
     
 3) Install CSS
 ----------------------------------
@@ -30,11 +46,12 @@ With symfony, the css need to be install before the use. (It is not mandatory bu
 4) Ready    
 ----------------------------------
 The project is ready to use.
-Go to : http://localhost/Loupsitofr/web/app_dev.php/
+Go to : <a href="http://localhost/Loupsitofr/web/app_dev.php/">http://localhost/Loupsitofr/web/app_dev.php/</a>
 
 For those use the zip, if you dont change the name of the project, the path can be : 
 
-    http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/ 
+<a href="http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/">http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/</a>
+
 or 
-    
-    http://localhost/Loupsitofr-origin/web/app_dev.php/
+        
+<a href="http://localhost/Loupsitofr-origin/web/app_dev.php/">http://localhost/Loupsitofr-origin/web/app_dev.php/</a>    
