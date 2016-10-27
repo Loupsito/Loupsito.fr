@@ -33,6 +33,8 @@ The project is ready to use.
 Go to : http://localhost/Loupsitofr/web/app_dev.php/
 
 For those use the zip, if you dont change the name of the project, the path can be : 
-http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/ 
+
+    http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/ 
 or 
-http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/
+    
+    http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/
