@@ -30,4 +30,4 @@ With symfony, the css need to be install before the use. (It is not mandatory bu
 4) Ready    
 ----------------------------------
 The project is ready to use.
-Go to http://localhost/Loupsitofr/web/app_dev.php/
+Go to : http://localhost/Loupsitofr/web/app_dev.php/
