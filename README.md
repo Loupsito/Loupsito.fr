@@ -37,4 +37,4 @@ For those use the zip, if you dont change the name of the project, the path can 
     http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/ 
 or 
     
-    http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/
+    http://localhost/Loupsitofr-origin/web/app_dev.php/
