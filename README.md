@@ -46,12 +46,8 @@ With symfony, the css need to be install before the use. (It is not mandatory bu
 4) Ready    
 ----------------------------------
 The project is ready to use.
-Go to : <a href="http://localhost/Loupsitofr/web/app_dev.php/">http://localhost/Loupsitofr/web/app_dev.php/</a>
+Go to : <a href="Loupsitofr/web/app_dev.php/">http://localhost/Loupsitofr/web/app_dev.php/</a>
 
 For those who use the zip, if you dont change the name of the project, the path can be : 
 
-<a href="http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/">http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/</a>
-
-or 
-        
-<a href="http://localhost/Loupsitofr-origin/web/app_dev.php/">http://localhost/Loupsitofr-origin/web/app_dev.php/</a>    
+<a href="Loupsitofr-origin/web/app_dev.php/">http://localhost/Loupsitofr-origin/Loupsitofr-origin/web/app_dev.php/</a>
